@@ -1,13 +1,11 @@
-import './App.css'
-import FileUploader from './components/FileUploader'
+import "./App.css";
+import FileUploader from "./components/FileUploader";
 
-function App() {
+function App(): React.JSX.Element {
 
-  return (
-    <>
-      <FileUploader />
-    </>
-  )
+    return (
+        <FileUploader />
+    );
 }
 
-export default App
+export default App;
