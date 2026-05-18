@@ -1,13 +1,20 @@
 using Amazon;
 using Amazon.Runtime;
 using Amazon.S3;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using server.Data;
+using server.Interfaces;
 using server.Models;
+using server.Repositories;
 using server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add Swagger
 builder.Services.AddEndpointsApiExplorer();
@@ -44,7 +51,11 @@ builder.Services.AddSingleton<IAmazonS3>(sp =>
         config
     );
 });
-builder.Services.AddScoped<S3FileStorageService>();
+builder.Services.AddScoped<IS3FileStorageService, S3FileStorageService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IS3ItemRepository, S3ItemRepository>();
+builder.Services.AddScoped<IS3ItemService, S3ItemService>();
 
 // configure CORS
 builder.Services.AddCors(options =>

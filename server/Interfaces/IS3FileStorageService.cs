@@ -8,5 +8,7 @@ namespace server.Interfaces
     public interface IS3FileStorageService
     {
         Task<string> UploadFileAsync(IFormFile file, string fileName);
+
+        string GetFileUrl(string s3Key);
     }
 }

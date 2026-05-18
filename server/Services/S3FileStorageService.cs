@@ -8,7 +8,6 @@ using Amazon.Util.Internal.PlatformServices;
 
 namespace server.Services
 {
-
     public class S3FileStorageService : IS3FileStorageService
     {
         private readonly IAmazonS3 _s3Client;
@@ -61,6 +60,19 @@ namespace server.Services
             {
                 throw new AmazonS3Exception("There was an error uploading to S3 =( ...)", e);
             }
+        }
+
+        public string GetFileUrl(string s3Key)
+        {
+            var request = new GetPreSignedUrlRequest
+            {
+                BucketName = _s3Settings.BucketName,
+                Key = s3Key,
+                Expires = DateTime.UtcNow.AddMinutes(15),
+                Verb = HttpVerb.GET
+            };
+
+            return _s3Client.GetPreSignedURL(request);
         }
     }
 }

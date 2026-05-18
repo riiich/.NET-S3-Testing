@@ -1,1 +1,4 @@
 *.Development.*
+bin/
+obj/
+.codex-build/
