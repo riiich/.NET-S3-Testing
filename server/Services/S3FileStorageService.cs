@@ -62,6 +62,17 @@ namespace server.Services
             }
         }
 
+        public async Task DeleteFileAsync(string s3Key)
+        {
+            DeleteObjectRequest request = new DeleteObjectRequest
+            {
+                BucketName = _s3Settings.BucketName,
+                Key = s3Key
+            };
+
+            await _s3Client.DeleteObjectAsync(request);
+        }
+
         public string GetFileUrl(string s3Key)
         {
             var request = new GetPreSignedUrlRequest

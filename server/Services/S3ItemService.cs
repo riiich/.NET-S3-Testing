@@ -46,6 +46,11 @@ public class S3ItemService : IS3ItemService
         return await _s3ItemRepository.GetByUserIdAsync(userId);
     }
 
+    public async Task<S3Item?> DeleteById(int userId, int s3ItemId)
+    {
+        return await _s3ItemRepository.DeleteById(userId, s3ItemId);
+    }
+
     public async Task<S3Item?> MarkRetrievedAsync(int id)
     {
         return await _s3ItemRepository.UpdateLastRetrievedAsync(id);

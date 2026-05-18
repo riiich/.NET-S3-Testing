@@ -9,6 +9,7 @@ public interface IS3ItemService
     Task<S3Item?> GetByIdAsync(int id);
 
     Task<IReadOnlyList<S3Item>> GetByUserIdAsync(int userId);
+    Task<S3Item?> DeleteById(int userId, int s3ItemId);
 
     Task<S3Item?> MarkRetrievedAsync(int id);
 }

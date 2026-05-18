@@ -11,4 +11,5 @@ public interface IS3ItemRepository
     Task<IReadOnlyList<S3Item>> GetByUserIdAsync(int userId);
 
     Task<S3Item?> UpdateLastRetrievedAsync(int id);
+    Task<S3Item?> DeleteById(int userId, int s3ItemId);
 }

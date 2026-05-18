@@ -52,4 +52,16 @@ public class S3ItemRepository : IS3ItemRepository
 
         return item;
     }
+
+    public async Task<S3Item?> DeleteById(int userId, int s3ItemId)
+    {
+        S3Item? item = await _context.S3Items.FirstOrDefaultAsync(s => s.UserId == userId && s.Id == s3ItemId);
+
+        if(item is null) return null;
+
+        _context.S3Items.Remove(item);
+        await _context.SaveChangesAsync();
+
+        return item;
+    }
 }

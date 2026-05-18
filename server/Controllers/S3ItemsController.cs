@@ -66,15 +66,25 @@ public class S3ItemsController : ControllerBase
         return Ok(ToResponseDto(item));
     }
 
+    [HttpDelete("users/{userId:int}/{s3ItemId:int}")]
+    public async Task<IActionResult> Delete([FromRoute] int userId, [FromRoute] int s3ItemId)
+    {
+        S3Item? item = await _s3ItemService.DeleteById(userId, s3ItemId);
+
+        if(item is null) return BadRequest("File does not exist in S3...");
+
+        await _s3FileStorageService.DeleteFileAsync(item.S3Key);
+
+        return NoContent();
+    }
+
     private S3ItemResponseDto ToResponseDto(S3Item item)
     {
         return new S3ItemResponseDto
         {
             Id = item.Id,
             UserId = item.UserId,
-            S3Key = item.S3Key,
             UploadedAt = item.UploadedAt,
-            LastRetrieved = item.LastRetrieved,
             FileName = item.FileName,
             MimeType = item.MimeType,
             FileSize = item.FileSize,
