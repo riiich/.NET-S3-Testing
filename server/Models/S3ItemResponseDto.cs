@@ -8,6 +8,8 @@ public class S3ItemResponseDto
 
     public string S3Key { get; set; } = string.Empty;
 
+    public S3ItemStatus Status { get; set; }
+
     public DateTime UploadedAt { get; set; }
 
     public DateTime? LastRetrieved { get; set; }

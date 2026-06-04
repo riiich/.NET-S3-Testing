@@ -22,6 +22,13 @@ public class S3ItemRepository : IS3ItemRepository
         return item;
     }
 
+    public async Task<S3Item> UpdateAsync(S3Item item)
+    {
+        await _context.SaveChangesAsync();
+
+        return item;
+    }
+
     public async Task<S3Item?> GetByIdAsync(int id)
     {
         return await _context.S3Items

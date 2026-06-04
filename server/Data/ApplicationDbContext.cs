@@ -31,6 +31,7 @@ public class ApplicationDbContext : DbContext
         {
             entity.HasKey(item => item.Id);
             entity.Property(item => item.S3Key).HasMaxLength(1024).IsRequired();
+            entity.Property(item => item.Status).HasConversion<int>();
             entity.Property(item => item.FileName).HasMaxLength(255).IsRequired();
             entity.Property(item => item.MimeType).HasMaxLength(255).IsRequired();
             entity.Property(item => item.UploadedAt).HasDefaultValueSql("SYSUTCDATETIME()");

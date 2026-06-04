@@ -84,7 +84,10 @@ public class S3ItemsController : ControllerBase
         {
             Id = item.Id,
             UserId = item.UserId,
+            S3Key = item.S3Key,
+            Status = item.Status,
             UploadedAt = item.UploadedAt,
+            LastRetrieved = item.LastRetrieved,
             FileName = item.FileName,
             MimeType = item.MimeType,
             FileSize = item.FileSize,

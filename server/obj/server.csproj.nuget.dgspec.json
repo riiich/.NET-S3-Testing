@@ -1,35 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\horic\\OneDrive\\Desktop\\.NET Projects\\S3BucketTest\\server\\server.csproj": {}
+    "/home/rich/Desktop/Projects/S3-Testing/server/server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\horic\\OneDrive\\Desktop\\.NET Projects\\S3BucketTest\\server\\server.csproj": {
+    "/home/rich/Desktop/Projects/S3-Testing/server/server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\horic\\OneDrive\\Desktop\\.NET Projects\\S3BucketTest\\server\\server.csproj",
+        "projectUniqueName": "/home/rich/Desktop/Projects/S3-Testing/server/server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Users\\horic\\OneDrive\\Desktop\\.NET Projects\\S3BucketTest\\server\\server.csproj",
-        "packagesPath": "C:\\Users\\horic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\horic\\OneDrive\\Desktop\\.NET Projects\\S3BucketTest\\server\\obj\\",
+        "projectPath": "/home/rich/Desktop/Projects/S3-Testing/server/server.csproj",
+        "packagesPath": "/home/rich/.nuget/packages/",
+        "outputPath": "/home/rich/Desktop/Projects/S3-Testing/server/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\horic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/rich/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -44,10 +39,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "AWSSDK.Extensions.NETCore.Setup": {
@@ -102,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/home/rich/.dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

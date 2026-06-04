@@ -8,6 +8,8 @@ public class S3Item
 
     public string S3Key { get; set; } = string.Empty;
 
+    public S3ItemStatus Status { get; set; } = S3ItemStatus.Pending;
+
     public DateTime UploadedAt { get; set; } = DateTime.UtcNow;
 
     public DateTime? LastRetrieved { get; set; }

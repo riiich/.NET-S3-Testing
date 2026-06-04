@@ -3,8 +3,6 @@ using Microsoft.Extensions.Options;
 using server.Models;
 using Amazon.S3.Model;
 using server.Interfaces;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Amazon.Util.Internal.PlatformServices;
 
 namespace server.Services
 {
@@ -21,14 +19,21 @@ namespace server.Services
             _uploadSettings = uploadSettingsOptions.Value;
         }
 
-        public async Task<string> UploadFileAsync(IFormFile file, string fileName)
+        public string CreateObjectKey(string fileName)
+        {
+            string safeFileName = Path.GetFileName(fileName);
+
+            return $"uploads/{Guid.NewGuid()}-{safeFileName}";
+        }
+
+        public async Task UploadFileAsync(FileUploadInput file, string s3Key)
         {
             if(file == null)
             {
                 throw new ArgumentNullException("There was an error uploading the file!");
             }
 
-            if(file.Length == 0)
+            if(file.Length <= 0)
             {
                 throw new ArgumentException("File is empty...");
             }
@@ -40,21 +45,15 @@ namespace server.Services
 
             try
             {
-                var key = $"uploads/{Guid.NewGuid()}-{fileName}";
-
-                using var stream = file.OpenReadStream();
-
                 var request = new PutObjectRequest
                 {
                     BucketName =  _s3Settings.BucketName,
-                    Key = key,
-                    InputStream = stream,
+                    Key = s3Key,
+                    InputStream = file.Content,
                     ContentType = file.ContentType  
                 };
 
                 await _s3Client.PutObjectAsync(request);
-
-                return key;
             }
             catch(AmazonS3Exception e)
             {

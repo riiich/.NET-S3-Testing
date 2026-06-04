@@ -1,13 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using server.Models;
 
 namespace server.Interfaces
 {
     public interface IS3FileStorageService
     {
-        Task<string> UploadFileAsync(IFormFile file, string fileName);
+        string CreateObjectKey(string fileName);
+        Task UploadFileAsync(FileUploadInput file, string s3Key);
         Task DeleteFileAsync(string s3Key);
         string GetFileUrl(string s3Key);
     }

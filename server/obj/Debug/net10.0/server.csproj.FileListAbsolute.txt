@@ -1,304 +1,632 @@
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\appsettings.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\server.staticwebassets.endpoints.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\server.exe
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\server.deps.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\server.runtimeconfig.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\server.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\server.pdb
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.OpenApi.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.csproj.AssemblyReference.cache
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.AssemblyInfoInputs.cache
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.AssemblyInfo.cs
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.csproj.CoreCompileInputs.cache
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\rjimswa.dswa.cache.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\scopedcss\bundle\server.styles.css
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\staticwebassets.build.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\staticwebassets.build.json.cache
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\staticwebassets.development.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\staticwebassets.build.endpoints.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.csproj.Up2Date
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\refint\server.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.pdb
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.genruntimeconfig.cache
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\ref\server.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\obj\Debug\net10.0\server.sourcelink.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\AWSSDK.Core.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\AWSSDK.Extensions.NETCore.Setup.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\AWSSDK.S3.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Azure.Core.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Azure.Identity.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Humanizer.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.Build.Framework.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.Identity.Client.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Mono.TextTemplating.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\Newtonsoft.Json.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\System.ClientModel.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\System.CodeDom.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\System.Composition.AttributedModel.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\System.Composition.Convention.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\System.Composition.Hosting.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\System.Composition.Runtime.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\System.Composition.TypedParts.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\System.Memory.Data.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\appsettings.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\server.staticwebassets.endpoints.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\server.exe
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\server.deps.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\server.runtimeconfig.json
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\server.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\server.pdb
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\AWSSDK.Core.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\AWSSDK.Extensions.NETCore.Setup.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\AWSSDK.S3.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Azure.Core.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Azure.Identity.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Humanizer.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.Bcl.Cryptography.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.Build.Framework.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.CodeAnalysis.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.Data.SqlClient.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.EntityFrameworkCore.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.Extensions.DependencyModel.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.Identity.Client.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.IdentityModel.Logging.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.IdentityModel.Protocols.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.IdentityModel.Tokens.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.OpenApi.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.SqlServer.Server.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Microsoft.VisualStudio.SolutionPersistence.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Mono.TextTemplating.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Newtonsoft.Json.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\System.ClientModel.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\System.CodeDom.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\System.Composition.AttributedModel.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\System.Composition.Convention.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\System.Composition.Hosting.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\System.Composition.Runtime.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\System.Composition.TypedParts.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\System.Configuration.ConfigurationManager.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\System.Memory.Data.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\System.Security.Cryptography.ProtectedData.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\cs\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\de\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\es\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\fr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\it\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ja\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ko\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pl\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\pt-BR\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\ru\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\tr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\horic\OneDrive\Desktop\.NET Projects\S3BucketTest\server\.codex-build\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/appsettings.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/server.staticwebassets.endpoints.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/server.exe
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/server.deps.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/server.runtimeconfig.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/server.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/server.pdb
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.OpenApi.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.csproj.AssemblyReference.cache
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/rpswa.dswa.cache.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.AssemblyInfoInputs.cache
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.AssemblyInfo.cs
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.csproj.CoreCompileInputs.cache
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/rjimswa.dswa.cache.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/scopedcss/bundle/server.styles.css
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/staticwebassets.build.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/staticwebassets.build.json.cache
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/staticwebassets.development.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/swae.build.ex.cache
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.csproj.Up2Date
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/refint/server.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.pdb
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.genruntimeconfig.cache
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/ref/server.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/obj/Debug/net10.0/server.sourcelink.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/AWSSDK.Core.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/AWSSDK.Extensions.NETCore.Setup.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/AWSSDK.S3.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Azure.Core.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Azure.Identity.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Humanizer.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.Bcl.Cryptography.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.Build.Framework.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.Data.SqlClient.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.Identity.Client.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.SqlServer.Server.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Microsoft.VisualStudio.SolutionPersistence.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Mono.TextTemplating.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/Newtonsoft.Json.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/System.ClientModel.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/System.CodeDom.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/System.Composition.AttributedModel.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/System.Composition.Convention.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/System.Composition.Hosting.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/System.Composition.Runtime.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/System.Composition.TypedParts.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/System.Configuration.ConfigurationManager.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/System.Memory.Data.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/cs/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/de/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/es/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/fr/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/it/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ja/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ko/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pl/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/ru/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/tr/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/runtimes/unix/lib/net9.0/Microsoft.Data.SqlClient.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/runtimes/win/lib/net9.0/Microsoft.Data.SqlClient.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/bin/Debug/net10.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/appsettings.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/server.staticwebassets.endpoints.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/server.exe
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/server.deps.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/server.runtimeconfig.json
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/server.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/server.pdb
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/AWSSDK.Core.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/AWSSDK.Extensions.NETCore.Setup.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/AWSSDK.S3.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Azure.Core.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Azure.Identity.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Humanizer.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.Bcl.Cryptography.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.Build.Framework.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.CodeAnalysis.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.Data.SqlClient.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.EntityFrameworkCore.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.Extensions.DependencyModel.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.Identity.Client.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.IdentityModel.Logging.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.IdentityModel.Protocols.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.IdentityModel.Tokens.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.OpenApi.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.SqlServer.Server.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Microsoft.VisualStudio.SolutionPersistence.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Mono.TextTemplating.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Newtonsoft.Json.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/System.ClientModel.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/System.CodeDom.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/System.Composition.AttributedModel.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/System.Composition.Convention.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/System.Composition.Hosting.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/System.Composition.Runtime.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/System.Composition.TypedParts.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/System.Configuration.ConfigurationManager.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/System.Memory.Data.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/System.Security.Cryptography.ProtectedData.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/cs/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/de/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/es/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/fr/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/it/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ja/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ko/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pl/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/pt-BR/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/ru/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/tr/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/runtimes/unix/lib/net9.0/Microsoft.Data.SqlClient.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/runtimes/win/lib/net9.0/Microsoft.Data.SqlClient.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/horic/OneDrive/Desktop/.NET Projects/S3BucketTest/server/.codex-build/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/appsettings.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/server.staticwebassets.endpoints.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/server
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/server.deps.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/server.runtimeconfig.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/server.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/server.pdb
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/AWSSDK.Core.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/AWSSDK.Extensions.NETCore.Setup.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/AWSSDK.S3.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Azure.Core.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Azure.Identity.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Humanizer.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.Bcl.Cryptography.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.Build.Framework.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.Data.SqlClient.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.Identity.Client.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.OpenApi.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.SqlServer.Server.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Microsoft.VisualStudio.SolutionPersistence.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Mono.TextTemplating.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Newtonsoft.Json.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/System.ClientModel.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/System.CodeDom.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/System.Composition.AttributedModel.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/System.Composition.Convention.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/System.Composition.Hosting.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/System.Composition.Runtime.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/System.Composition.TypedParts.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/System.Configuration.ConfigurationManager.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/System.IdentityModel.Tokens.Jwt.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/System.Memory.Data.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/System.Security.Cryptography.ProtectedData.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/de/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/es/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/it/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/runtimes/unix/lib/net9.0/Microsoft.Data.SqlClient.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/runtimes/win/lib/net9.0/Microsoft.Data.SqlClient.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/bin/Debug/net10.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.csproj.AssemblyReference.cache
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/rpswa.dswa.cache.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.GeneratedMSBuildEditorConfig.editorconfig
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.AssemblyInfoInputs.cache
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.AssemblyInfo.cs
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.csproj.CoreCompileInputs.cache
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.MvcApplicationPartsAssemblyInfo.cs
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.MvcApplicationPartsAssemblyInfo.cache
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.sourcelink.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/rjimswa.dswa.cache.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/scopedcss/bundle/server.styles.css
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/staticwebassets.build.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/staticwebassets.build.json.cache
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/staticwebassets.development.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/swae.build.ex.cache
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.csproj.Up2Date
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/refint/server.dll
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.pdb
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/server.genruntimeconfig.cache
+/home/rich/Desktop/Projects/.NET-S3-Testing/server/obj/Debug/net10.0/ref/server.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/appsettings.json
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/server.staticwebassets.endpoints.json
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/server
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/server.deps.json
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/server.runtimeconfig.json
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/server.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/server.pdb
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/AWSSDK.Core.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/AWSSDK.Extensions.NETCore.Setup.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/AWSSDK.S3.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Azure.Core.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Azure.Identity.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Humanizer.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.Bcl.Cryptography.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.Build.Framework.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.Data.SqlClient.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.Identity.Client.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.OpenApi.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.SqlServer.Server.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Microsoft.VisualStudio.SolutionPersistence.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Mono.TextTemplating.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Newtonsoft.Json.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/System.ClientModel.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/System.CodeDom.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/System.Composition.AttributedModel.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/System.Composition.Convention.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/System.Composition.Hosting.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/System.Composition.Runtime.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/System.Composition.TypedParts.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/System.Configuration.ConfigurationManager.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/System.IdentityModel.Tokens.Jwt.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/System.Memory.Data.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/System.Security.Cryptography.ProtectedData.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/cs/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/de/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/es/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/fr/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/it/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ja/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ko/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pl/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/ru/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/tr/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/runtimes/unix/lib/net9.0/Microsoft.Data.SqlClient.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/runtimes/win/lib/net9.0/Microsoft.Data.SqlClient.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/rich/Desktop/Projects/S3-Testing/server/bin/Debug/net10.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.csproj.AssemblyReference.cache
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/rpswa.dswa.cache.json
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.GeneratedMSBuildEditorConfig.editorconfig
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.AssemblyInfoInputs.cache
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.AssemblyInfo.cs
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.csproj.CoreCompileInputs.cache
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.MvcApplicationPartsAssemblyInfo.cs
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.MvcApplicationPartsAssemblyInfo.cache
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.sourcelink.json
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/rjimswa.dswa.cache.json
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/scopedcss/bundle/server.styles.css
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/staticwebassets.build.json
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/staticwebassets.build.json.cache
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/staticwebassets.development.json
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/swae.build.ex.cache
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.csproj.Up2Date
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.dll
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/refint/server.dll
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.pdb
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/server.genruntimeconfig.cache
+/home/rich/Desktop/Projects/S3-Testing/server/obj/Debug/net10.0/ref/server.dll

@@ -56,6 +56,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IS3ItemRepository, S3ItemRepository>();
 builder.Services.AddScoped<IS3ItemService, S3ItemService>();
+builder.Services.AddScoped<IS3UploadService, S3UploadService>();
 
 // configure CORS
 builder.Services.AddCors(options =>

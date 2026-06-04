@@ -27,6 +27,7 @@ public class S3ItemService : IS3ItemService
         {
             UserId = request.UserId,
             S3Key = request.S3Key,
+            Status = S3ItemStatus.Uploaded,
             UploadedAt = DateTime.UtcNow,
             FileName = request.FileName,
             MimeType = request.MimeType,

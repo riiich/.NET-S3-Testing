@@ -8,24 +8,11 @@ namespace server.Controllers
     [Route("/api/s3")]
     public class S3Controller : ControllerBase
     {
-        private readonly IS3FileStorageService _s3Service;
-        private readonly IS3ItemService _s3ItemService;
-        private readonly IUserService _userService;
+        private readonly IS3UploadService _s3UploadService;
 
-        public S3Controller(
-            IS3FileStorageService s3Service,
-            IS3ItemService s3ItemService,
-            IUserService userService)
+        public S3Controller(IS3UploadService s3UploadService)
         {
-            _s3Service = s3Service;
-            _s3ItemService = s3ItemService;
-            _userService = userService;
-        }
-
-        [HttpGet]
-        public IActionResult test()
-        {
-            return Ok(new { msg = "Made it to the S3 bucket upload root endpoint!" });
+            _s3UploadService = s3UploadService;
         }
 
         [HttpPost]
@@ -34,24 +21,21 @@ namespace server.Controllers
         {
             try
             {
-                User? user = await _userService.GetByIdAsync(userId);
-
-                if (user is null)
+                if (uploadedFile is null)
                 {
-                    return BadRequest("Create an account before uploading files.");
+                    return BadRequest("A file is required.");
                 }
 
-                var response = await _s3Service.UploadFileAsync(uploadedFile, uploadedFile.FileName);
-                S3Item item = await _s3ItemService.CreateAsync(new CreateS3ItemRequest
+                await using Stream fileContent = uploadedFile.OpenReadStream();
+                S3Item item = await _s3UploadService.UploadAsync(userId, new FileUploadInput
                 {
-                    UserId = userId,
-                    S3Key = response,
                     FileName = uploadedFile.FileName,
-                    MimeType = uploadedFile.ContentType,
-                    FileSize = uploadedFile.Length
+                    ContentType = uploadedFile.ContentType,
+                    Length = uploadedFile.Length,
+                    Content = fileContent
                 });
 
-                return Ok(new { msg="File uploaded successfully =)", res=response, item });
+                return Ok(new { msg="File uploaded successfully =)", res=item.S3Key, item });
             }
             catch(ArgumentException e)
             {
