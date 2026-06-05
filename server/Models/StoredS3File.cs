@@ -1,6 +1,6 @@
 namespace server.Models;
 
-public class S3Item
+public class StoredS3File
 {
     public int Id { get; set; }
 
@@ -8,7 +8,7 @@ public class S3Item
 
     public string S3Key { get; set; } = string.Empty;
 
-    public S3ItemStatus Status { get; set; } = S3ItemStatus.Pending;
+    public StoredS3FileStatus Status { get; set; } = StoredS3FileStatus.Pending;
 
     public DateTime UploadedAt { get; set; } = DateTime.UtcNow;
 

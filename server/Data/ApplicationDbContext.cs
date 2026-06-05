@@ -12,7 +12,7 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<User> Users => Set<User>();
 
-    public DbSet<S3Item> S3Items => Set<S3Item>();
+    public DbSet<StoredS3File> StoredS3Files => Set<StoredS3File>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -27,7 +27,7 @@ public class ApplicationDbContext : DbContext
             entity.HasIndex(user => user.Email).IsUnique();
         });
 
-        modelBuilder.Entity<S3Item>(entity =>
+        modelBuilder.Entity<StoredS3File>(entity =>
         {
             entity.HasKey(item => item.Id);
             entity.Property(item => item.S3Key).HasMaxLength(1024).IsRequired();
@@ -39,7 +39,7 @@ public class ApplicationDbContext : DbContext
             entity.HasIndex(item => item.S3Key).IsUnique();
 
             entity.HasOne(item => item.User)
-                .WithMany(user => user.S3Items)
+                .WithMany(user => user.StoredS3Files)
                 .HasForeignKey(item => item.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
         });

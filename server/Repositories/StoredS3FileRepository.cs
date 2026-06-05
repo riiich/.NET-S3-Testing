@@ -5,49 +5,49 @@ using server.Models;
 
 namespace server.Repositories;
 
-public class S3ItemRepository : IS3ItemRepository
+public class StoredS3FileRepository : IStoredS3FileRepository
 {
     private readonly ApplicationDbContext _context;
 
-    public S3ItemRepository(ApplicationDbContext context)
+    public StoredS3FileRepository(ApplicationDbContext context)
     {
         _context = context;
     }
 
-    public async Task<S3Item> CreateAsync(S3Item item)
+    public async Task<StoredS3File> CreateAsync(StoredS3File item)
     {
-        _context.S3Items.Add(item);
+        _context.StoredS3Files.Add(item);
         await _context.SaveChangesAsync();
 
         return item;
     }
 
-    public async Task<S3Item> UpdateAsync(S3Item item)
+    public async Task<StoredS3File> UpdateAsync(StoredS3File item)
     {
         await _context.SaveChangesAsync();
 
         return item;
     }
 
-    public async Task<S3Item?> GetByIdAsync(int id)
+    public async Task<StoredS3File?> GetByIdAsync(int id)
     {
-        return await _context.S3Items
+        return await _context.StoredS3Files
             .AsNoTracking()
             .FirstOrDefaultAsync(item => item.Id == id);
     }
 
-    public async Task<IReadOnlyList<S3Item>> GetByUserIdAsync(int userId)
+    public async Task<IReadOnlyList<StoredS3File>> GetByUserIdAsync(int userId)
     {
-        return await _context.S3Items
+        return await _context.StoredS3Files
             .AsNoTracking()
             .Where(item => item.UserId == userId)
             .OrderByDescending(item => item.UploadedAt)
             .ToListAsync();
     }
 
-    public async Task<S3Item?> UpdateLastRetrievedAsync(int id)
+    public async Task<StoredS3File?> UpdateLastRetrievedAsync(int id)
     {
-        S3Item? item = await _context.S3Items.FirstOrDefaultAsync(s3Item => s3Item.Id == id);
+        StoredS3File? item = await _context.StoredS3Files.FirstOrDefaultAsync(storedS3File => storedS3File.Id == id);
 
         if (item is null)
         {
@@ -60,13 +60,13 @@ public class S3ItemRepository : IS3ItemRepository
         return item;
     }
 
-    public async Task<S3Item?> DeleteById(int userId, int s3ItemId)
+    public async Task<StoredS3File?> DeleteById(int userId, int storedS3FileId)
     {
-        S3Item? item = await _context.S3Items.FirstOrDefaultAsync(s => s.UserId == userId && s.Id == s3ItemId);
+        StoredS3File? item = await _context.StoredS3Files.FirstOrDefaultAsync(s => s.UserId == userId && s.Id == storedS3FileId);
 
         if(item is null) return null;
 
-        _context.S3Items.Remove(item);
+        _context.StoredS3Files.Remove(item);
         await _context.SaveChangesAsync();
 
         return item;

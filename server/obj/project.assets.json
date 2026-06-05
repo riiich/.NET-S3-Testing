@@ -3692,11 +3692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rich/Desktop/Projects/S3-Testing/server/server.csproj",
+      "projectUniqueName": "/home/rich/Desktop/Projects/S3-Template-.NET/server/server.csproj",
       "projectName": "server",
-      "projectPath": "/home/rich/Desktop/Projects/S3-Testing/server/server.csproj",
+      "projectPath": "/home/rich/Desktop/Projects/S3-Template-.NET/server/server.csproj",
       "packagesPath": "/home/rich/.nuget/packages/",
-      "outputPath": "/home/rich/Desktop/Projects/S3-Testing/server/obj/",
+      "outputPath": "/home/rich/Desktop/Projects/S3-Template-.NET/server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/rich/.nuget/NuGet/NuGet.Config"

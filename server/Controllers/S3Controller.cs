@@ -8,11 +8,11 @@ namespace server.Controllers
     [Route("/api/s3")]
     public class S3Controller : ControllerBase
     {
-        private readonly IS3UploadService _s3UploadService;
+        private readonly IFileUploadWorkflowService _fileUploadWorkflowService;
 
-        public S3Controller(IS3UploadService s3UploadService)
+        public S3Controller(IFileUploadWorkflowService fileUploadWorkflowService)
         {
-            _s3UploadService = s3UploadService;
+            _fileUploadWorkflowService = fileUploadWorkflowService;
         }
 
         [HttpPost]
@@ -27,7 +27,7 @@ namespace server.Controllers
                 }
 
                 await using Stream fileContent = uploadedFile.OpenReadStream();
-                S3Item item = await _s3UploadService.UploadAsync(userId, new FileUploadInput
+                StoredS3File item = await _fileUploadWorkflowService.UploadAsync(userId, new FileUploadInput
                 {
                     FileName = uploadedFile.FileName,
                     ContentType = uploadedFile.ContentType,

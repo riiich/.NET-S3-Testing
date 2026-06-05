@@ -6,13 +6,13 @@ using server.Interfaces;
 
 namespace server.Services
 {
-    public class S3FileStorageService : IS3FileStorageService
+    public class S3FileUploadService : IS3FileUploadService
     {
         private readonly IAmazonS3 _s3Client;
         private readonly S3Settings _s3Settings;
         private readonly UploadSettings _uploadSettings;
 
-        public S3FileStorageService(IAmazonS3 s3Client, IOptions<S3Settings> s3SettingsOptions, IOptions<UploadSettings> uploadSettingsOptions)
+        public S3FileUploadService(IAmazonS3 s3Client, IOptions<S3Settings> s3SettingsOptions, IOptions<UploadSettings> uploadSettingsOptions)
         {
             _s3Client = s3Client;
             _s3Settings = s3SettingsOptions.Value;
@@ -72,7 +72,7 @@ namespace server.Services
             await _s3Client.DeleteObjectAsync(request);
         }
 
-        public string GetFileUrl(string s3Key)
+        public string GetPresignedUrl(string s3Key)
         {
             var request = new GetPreSignedUrlRequest
             {

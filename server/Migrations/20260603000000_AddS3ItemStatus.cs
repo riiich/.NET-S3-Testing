@@ -5,14 +5,14 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace server.Migrations
 {
     /// <inheritdoc />
-    public partial class AddS3ItemStatus : Migration
+    public partial class AddStoredS3FileStatus : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<int>(
                 name: "Status",
-                table: "S3Items",
+                table: "StoredS3Files",
                 type: "int",
                 nullable: false,
                 defaultValue: 1);
@@ -23,7 +23,7 @@ namespace server.Migrations
         {
             migrationBuilder.DropColumn(
                 name: "Status",
-                table: "S3Items");
+                table: "StoredS3Files");
         }
     }
 }

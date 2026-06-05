@@ -3,26 +3,26 @@ using server.Models;
 
 namespace server.Services;
 
-public class S3UploadService : IS3UploadService
+public class FileUploadWorkflowService : IFileUploadWorkflowService
 {
-    private readonly ILogger<S3UploadService> _logger;
-    private readonly IS3FileStorageService _storageService;
-    private readonly IS3ItemRepository _s3ItemRepository;
+    private readonly ILogger<FileUploadWorkflowService> _logger;
+    private readonly IS3FileUploadService _storageService;
+    private readonly IStoredS3FileRepository _storedS3FileRepository;
     private readonly IUserRepository _userRepository;
 
-    public S3UploadService(
-        ILogger<S3UploadService> logger,
-        IS3FileStorageService storageService,
-        IS3ItemRepository s3ItemRepository,
+    public FileUploadWorkflowService(
+        ILogger<FileUploadWorkflowService> logger,
+        IS3FileUploadService storageService,
+        IStoredS3FileRepository storedS3FileRepository,
         IUserRepository userRepository)
     {
         _logger = logger;
         _storageService = storageService;
-        _s3ItemRepository = s3ItemRepository;
+        _storedS3FileRepository = storedS3FileRepository;
         _userRepository = userRepository;
     }
     
-    public async Task<S3Item> UploadAsync(int userId, FileUploadInput file)
+    public async Task<StoredS3File> UploadAsync(int userId, FileUploadInput file)
     {
         User? user = await _userRepository.GetByIdAsync(userId);
 
@@ -33,17 +33,17 @@ public class S3UploadService : IS3UploadService
 
         string s3Key = _storageService.CreateObjectKey(file.FileName);
 
-        S3Item item = new()
+        StoredS3File item = new()
         {
             UserId = userId,
             S3Key = s3Key,
-            Status = S3ItemStatus.Pending,
+            Status = StoredS3FileStatus.Pending,
             FileName = file.FileName,
             MimeType = file.ContentType,
             FileSize = file.Length
         };
 
-        await _s3ItemRepository.CreateAsync(item);
+        await _storedS3FileRepository.CreateAsync(item);
 
         try
         {
@@ -51,16 +51,16 @@ public class S3UploadService : IS3UploadService
         }
         catch
         {
-            item.Status = S3ItemStatus.Failed;
+            item.Status = StoredS3FileStatus.Failed;
             try
             {
-                await _s3ItemRepository.UpdateAsync(item);
+                await _storedS3FileRepository.UpdateAsync(item);
             }
             catch (Exception statusUpdateException)
             {
                 _logger.LogError(
                     statusUpdateException,
-                    "Failed to mark S3 item {S3ItemId} as failed after upload error. S3 key: {S3Key}",
+                    "Failed to mark S3 item {StoredS3FileId} as failed after upload error. S3 key: {S3Key}",
                     item.Id,
                     item.S3Key);
             }
@@ -68,9 +68,9 @@ public class S3UploadService : IS3UploadService
             throw;
         }
 
-        item.Status = S3ItemStatus.Uploaded;
+        item.Status = StoredS3FileStatus.Uploaded;
         item.UploadedAt = DateTime.UtcNow;
 
-        return await _s3ItemRepository.UpdateAsync(item);
+        return await _storedS3FileRepository.UpdateAsync(item);
     }
 }

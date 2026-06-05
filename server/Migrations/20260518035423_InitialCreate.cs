@@ -27,7 +27,7 @@ namespace server.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "S3Items",
+                name: "StoredS3Files",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -42,9 +42,9 @@ namespace server.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_S3Items", x => x.Id);
+                    table.PrimaryKey("PK_StoredS3Files", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_S3Items_Users_UserId",
+                        name: "FK_StoredS3Files_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -52,14 +52,14 @@ namespace server.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_S3Items_S3Key",
-                table: "S3Items",
+                name: "IX_StoredS3Files_S3Key",
+                table: "StoredS3Files",
                 column: "S3Key",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_S3Items_UserId",
-                table: "S3Items",
+                name: "IX_StoredS3Files_UserId",
+                table: "StoredS3Files",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
@@ -73,7 +73,7 @@ namespace server.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "S3Items");
+                name: "StoredS3Files");
 
             migrationBuilder.DropTable(
                 name: "Users");

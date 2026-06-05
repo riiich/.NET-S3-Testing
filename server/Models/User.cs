@@ -10,5 +10,5 @@ public class User
 
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-    public ICollection<S3Item> S3Items { get; set; } = [];
+    public ICollection<StoredS3File> StoredS3Files { get; set; } = [];
 }

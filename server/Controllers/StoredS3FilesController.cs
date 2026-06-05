@@ -6,21 +6,21 @@ namespace server.Controllers;
 
 [ApiController]
 [Route("api/s3-items")]
-public class S3ItemsController : ControllerBase
+public class StoredS3FilesController : ControllerBase
 {
-    private readonly IS3ItemService _s3ItemService;
-    private readonly IS3FileStorageService _s3FileStorageService;
+    private readonly IStoredS3FileService _storedS3FileService;
+    private readonly IS3FileUploadService _s3FileUploadService;
 
-    public S3ItemsController(IS3ItemService s3ItemService, IS3FileStorageService s3FileStorageService)
+    public StoredS3FilesController(IStoredS3FileService storedS3FileService, IS3FileUploadService s3FileUploadService)
     {
-        _s3ItemService = s3ItemService;
-        _s3FileStorageService = s3FileStorageService;
+        _storedS3FileService = storedS3FileService;
+        _s3FileUploadService = s3FileUploadService;
     }
 
     [HttpGet("{id:int}")]
     public async Task<IActionResult> GetById(int id)
     {
-        S3Item? item = await _s3ItemService.GetByIdAsync(id);
+        StoredS3File? item = await _storedS3FileService.GetByIdAsync(id);
 
         if (item is null)
         {
@@ -33,17 +33,17 @@ public class S3ItemsController : ControllerBase
     [HttpGet("user/{userId:int}")]
     public async Task<IActionResult> GetByUserId(int userId)
     {
-        IReadOnlyList<S3Item> items = await _s3ItemService.GetByUserIdAsync(userId);
+        IReadOnlyList<StoredS3File> items = await _storedS3FileService.GetByUserIdAsync(userId);
 
         return Ok(items.Select(ToResponseDto));
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create(CreateS3ItemRequest request)
+    public async Task<IActionResult> Create(CreateStoredS3FileRequest request)
     {
         try
         {
-            S3Item item = await _s3ItemService.CreateAsync(request);
+            StoredS3File item = await _storedS3FileService.CreateAsync(request);
 
             return CreatedAtAction(nameof(GetById), new { id = item.Id }, ToResponseDto(item));
         }
@@ -56,7 +56,7 @@ public class S3ItemsController : ControllerBase
     [HttpPatch("{id:int}/retrieved")]
     public async Task<IActionResult> MarkRetrieved(int id)
     {
-        S3Item? item = await _s3ItemService.MarkRetrievedAsync(id);
+        StoredS3File? item = await _storedS3FileService.MarkRetrievedAsync(id);
 
         if (item is null)
         {
@@ -66,21 +66,21 @@ public class S3ItemsController : ControllerBase
         return Ok(ToResponseDto(item));
     }
 
-    [HttpDelete("users/{userId:int}/{s3ItemId:int}")]
-    public async Task<IActionResult> Delete([FromRoute] int userId, [FromRoute] int s3ItemId)
+    [HttpDelete("users/{userId:int}/{storedS3FileId:int}")]
+    public async Task<IActionResult> Delete([FromRoute] int userId, [FromRoute] int storedS3FileId)
     {
-        S3Item? item = await _s3ItemService.DeleteById(userId, s3ItemId);
+        StoredS3File? item = await _storedS3FileService.DeleteById(userId, storedS3FileId);
 
         if(item is null) return BadRequest("File does not exist in S3...");
 
-        await _s3FileStorageService.DeleteFileAsync(item.S3Key);
+        await _s3FileUploadService.DeleteFileAsync(item.S3Key);
 
         return NoContent();
     }
 
-    private S3ItemResponseDto ToResponseDto(S3Item item)
+    private StoredS3FileResponseDto ToResponseDto(StoredS3File item)
     {
-        return new S3ItemResponseDto
+        return new StoredS3FileResponseDto
         {
             Id = item.Id,
             UserId = item.UserId,
@@ -91,7 +91,7 @@ public class S3ItemsController : ControllerBase
             FileName = item.FileName,
             MimeType = item.MimeType,
             FileSize = item.FileSize,
-            FileUrl = _s3FileStorageService.GetFileUrl(item.S3Key)
+            PresignedUrl = _s3FileUploadService.GetPresignedUrl(item.S3Key)
         };
     }
 }

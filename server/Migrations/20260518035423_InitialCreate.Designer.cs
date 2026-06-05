@@ -25,7 +25,7 @@ namespace server.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("server.Models.S3Item", b =>
+            modelBuilder.Entity("server.Models.StoredS3File", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -69,7 +69,7 @@ namespace server.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("S3Items");
+                    b.ToTable("StoredS3Files");
                 });
 
             modelBuilder.Entity("server.Models.User", b =>
@@ -103,10 +103,10 @@ namespace server.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("server.Models.S3Item", b =>
+            modelBuilder.Entity("server.Models.StoredS3File", b =>
                 {
                     b.HasOne("server.Models.User", "User")
-                        .WithMany("S3Items")
+                        .WithMany("StoredS3Files")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -116,7 +116,7 @@ namespace server.Migrations
 
             modelBuilder.Entity("server.Models.User", b =>
                 {
-                    b.Navigation("S3Items");
+                    b.Navigation("StoredS3Files");
                 });
 #pragma warning restore 612, 618
         }

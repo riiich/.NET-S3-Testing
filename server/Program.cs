@@ -51,12 +51,12 @@ builder.Services.AddSingleton<IAmazonS3>(sp =>
         config
     );
 });
-builder.Services.AddScoped<IS3FileStorageService, S3FileStorageService>();
+builder.Services.AddScoped<IS3FileUploadService, S3FileUploadService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IS3ItemRepository, S3ItemRepository>();
-builder.Services.AddScoped<IS3ItemService, S3ItemService>();
-builder.Services.AddScoped<IS3UploadService, S3UploadService>();
+builder.Services.AddScoped<IStoredS3FileRepository, StoredS3FileRepository>();
+builder.Services.AddScoped<IStoredS3FileService, StoredS3FileService>();
+builder.Services.AddScoped<IFileUploadWorkflowService, FileUploadWorkflowService>();
 
 // configure CORS
 builder.Services.AddCors(options =>

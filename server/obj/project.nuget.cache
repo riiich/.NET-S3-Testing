@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h8axKyDuYsE=",
+  "dgSpecHash": "af5uPEo2SpA=",
   "success": true,
-  "projectFilePath": "/home/rich/Desktop/Projects/S3-Testing/server/server.csproj",
+  "projectFilePath": "/home/rich/Desktop/Projects/S3-Template-.NET/server/server.csproj",
   "expectedPackageFiles": [
     "/home/rich/.nuget/packages/awssdk.core/4.0.7.1/awssdk.core.4.0.7.1.nupkg.sha512",
     "/home/rich/.nuget/packages/awssdk.extensions.netcore.setup/4.0.3.40/awssdk.extensions.netcore.setup.4.0.3.40.nupkg.sha512",
