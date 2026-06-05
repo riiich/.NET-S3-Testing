@@ -42,7 +42,7 @@ namespace server.Services
             {
                 throw new ArgumentException ("Invalid file type was uploaded!");
             }
-
+            
             try
             {
                 var request = new PutObjectRequest
@@ -50,7 +50,7 @@ namespace server.Services
                     BucketName =  _s3Settings.BucketName,
                     Key = s3Key,
                     InputStream = file.Content,
-                    ContentType = file.ContentType  
+                    ContentType = file.ContentType
                 };
 
                 await _s3Client.PutObjectAsync(request);

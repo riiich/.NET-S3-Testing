@@ -5,20 +5,23 @@ namespace server.Services;
 
 public class S3UploadService : IS3UploadService
 {
+    private readonly ILogger<S3UploadService> _logger;
     private readonly IS3FileStorageService _storageService;
     private readonly IS3ItemRepository _s3ItemRepository;
     private readonly IUserRepository _userRepository;
 
     public S3UploadService(
+        ILogger<S3UploadService> logger,
         IS3FileStorageService storageService,
         IS3ItemRepository s3ItemRepository,
         IUserRepository userRepository)
     {
+        _logger = logger;
         _storageService = storageService;
         _s3ItemRepository = s3ItemRepository;
         _userRepository = userRepository;
     }
-
+    
     public async Task<S3Item> UploadAsync(int userId, FileUploadInput file)
     {
         User? user = await _userRepository.GetByIdAsync(userId);
@@ -53,9 +56,13 @@ public class S3UploadService : IS3UploadService
             {
                 await _s3ItemRepository.UpdateAsync(item);
             }
-            catch
+            catch (Exception statusUpdateException)
             {
-                // Preserve the original storage failure if the status update also fails.
+                _logger.LogError(
+                    statusUpdateException,
+                    "Failed to mark S3 item {S3ItemId} as failed after upload error. S3 key: {S3Key}",
+                    item.Id,
+                    item.S3Key);
             }
 
             throw;
