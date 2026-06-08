@@ -7,43 +7,38 @@ public class FileUploadWorkflowService : IFileUploadWorkflowService
 {
     private readonly ILogger<FileUploadWorkflowService> _logger;
     private readonly IS3FileUploadService _storageService;
-    private readonly IStoredS3FileRepository _storedS3FileRepository;
-    private readonly IUserRepository _userRepository;
+    private readonly IS3MetadataRepository _s3MetadataRepository;
 
     public FileUploadWorkflowService(
         ILogger<FileUploadWorkflowService> logger,
         IS3FileUploadService storageService,
-        IStoredS3FileRepository storedS3FileRepository,
-        IUserRepository userRepository)
+        IS3MetadataRepository s3MetadataRepository)
     {
         _logger = logger;
         _storageService = storageService;
-        _storedS3FileRepository = storedS3FileRepository;
-        _userRepository = userRepository;
+        _s3MetadataRepository = s3MetadataRepository;
     }
     
-    public async Task<StoredS3File> UploadAsync(int userId, FileUploadInput file)
+    public async Task<S3Metadata> UploadAsync(string ownerId, FileUploadInput file)
     {
-        User? user = await _userRepository.GetByIdAsync(userId);
-
-        if (user is null)
+        if (string.IsNullOrWhiteSpace(ownerId))
         {
-            throw new ArgumentException("Create an account before uploading files.");
+            throw new ArgumentException("An owner id is required before uploading files.");
         }
 
         string s3Key = _storageService.CreateObjectKey(file.FileName);
 
-        StoredS3File item = new()
+        S3Metadata item = new()
         {
-            UserId = userId,
+            OwnerId = ownerId.Trim(),
             S3Key = s3Key,
-            Status = StoredS3FileStatus.Pending,
+            Status = S3MetadataStatus.Pending,
             FileName = file.FileName,
             MimeType = file.ContentType,
             FileSize = file.Length
         };
 
-        await _storedS3FileRepository.CreateAsync(item);
+        await _s3MetadataRepository.CreateAsync(item);
 
         try
         {
@@ -51,16 +46,16 @@ public class FileUploadWorkflowService : IFileUploadWorkflowService
         }
         catch
         {
-            item.Status = StoredS3FileStatus.Failed;
+            item.Status = S3MetadataStatus.Failed;
             try
             {
-                await _storedS3FileRepository.UpdateAsync(item);
+                await _s3MetadataRepository.UpdateAsync(item);
             }
             catch (Exception statusUpdateException)
             {
                 _logger.LogError(
                     statusUpdateException,
-                    "Failed to mark S3 item {StoredS3FileId} as failed after upload error. S3 key: {S3Key}",
+                    "Failed to mark S3 metadata {S3MetadataId} as failed after upload error. S3 key: {S3Key}",
                     item.Id,
                     item.S3Key);
             }
@@ -68,9 +63,9 @@ public class FileUploadWorkflowService : IFileUploadWorkflowService
             throw;
         }
 
-        item.Status = StoredS3FileStatus.Uploaded;
+        item.Status = S3MetadataStatus.Uploaded;
         item.UploadedAt = DateTime.UtcNow;
 
-        return await _storedS3FileRepository.UpdateAsync(item);
+        return await _s3MetadataRepository.UpdateAsync(item);
     }
 }

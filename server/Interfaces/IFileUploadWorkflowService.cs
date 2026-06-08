@@ -4,5 +4,5 @@ namespace server.Interfaces;
 
 public interface IFileUploadWorkflowService
 {
-    Task<StoredS3File> UploadAsync(int userId, FileUploadInput file);
+    Task<S3Metadata> UploadAsync(string ownerId, FileUploadInput file);
 }

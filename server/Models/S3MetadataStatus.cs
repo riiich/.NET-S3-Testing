@@ -1,6 +1,6 @@
 namespace server.Models;
 
-public enum StoredS3FileStatus
+public enum S3MetadataStatus
 {
     Pending = 0,
     Uploaded = 1,

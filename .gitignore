@@ -1,2 +1,5 @@
 *.agents
 *.codex
+bin/
+obj/
+.codex-build/

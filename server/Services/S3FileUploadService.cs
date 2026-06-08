@@ -1,13 +1,15 @@
 using Amazon.S3;
-using Microsoft.Extensions.Options;
-using server.Models;
 using Amazon.S3.Model;
+using Microsoft.Extensions.Options;
 using server.Interfaces;
+using server.Models;
 
 namespace server.Services
 {
     public class S3FileUploadService : IS3FileUploadService
     {
+        private static readonly byte[] PdfSignature = "%PDF-"u8.ToArray();
+
         private readonly IAmazonS3 _s3Client;
         private readonly S3Settings _s3Settings;
         private readonly UploadSettings _uploadSettings;
@@ -22,47 +24,40 @@ namespace server.Services
         public string CreateObjectKey(string fileName)
         {
             string safeFileName = Path.GetFileName(fileName);
+            string extension = Path.GetExtension(safeFileName).ToLowerInvariant();
 
-            return $"uploads/{Guid.NewGuid()}-{safeFileName}";
+            return $"uploads/{Guid.NewGuid()}{extension}";
         }
 
         public async Task UploadFileAsync(FileUploadInput file, string s3Key)
         {
-            if(file == null)
-            {
-                throw new ArgumentNullException("There was an error uploading the file!");
-            }
-
-            if(file.Length <= 0)
-            {
-                throw new ArgumentException("File is empty...");
-            }
-
-            if(!_uploadSettings.AcceptedTypes.Contains(file.ContentType))
-            {
-                throw new ArgumentException ("Invalid file type was uploaded!");
-            }
+            ValidateFile(file);
+            await ValidatePdfSignatureAsync(file.Content);
+            ValidateS3Settings();
             
             try
             {
                 var request = new PutObjectRequest
                 {
-                    BucketName =  _s3Settings.BucketName,
+                    BucketName = _s3Settings.BucketName,
                     Key = s3Key,
                     InputStream = file.Content,
-                    ContentType = file.ContentType
+                    ContentType = file.ContentType,
+                    ServerSideEncryptionMethod = ServerSideEncryptionMethod.AES256
                 };
 
                 await _s3Client.PutObjectAsync(request);
             }
-            catch(AmazonS3Exception e)
+            catch (AmazonS3Exception e)
             {
-                throw new AmazonS3Exception("There was an error uploading to S3 =( ...)", e);
+                throw new InvalidOperationException("There was an error uploading to S3.", e);
             }
         }
 
         public async Task DeleteFileAsync(string s3Key)
         {
+            ValidateS3Settings();
+
             DeleteObjectRequest request = new DeleteObjectRequest
             {
                 BucketName = _s3Settings.BucketName,
@@ -74,6 +69,8 @@ namespace server.Services
 
         public string GetPresignedUrl(string s3Key)
         {
+            ValidateS3Settings();
+
             var request = new GetPreSignedUrlRequest
             {
                 BucketName = _s3Settings.BucketName,
@@ -83,6 +80,65 @@ namespace server.Services
             };
 
             return _s3Client.GetPreSignedURL(request);
+        }
+
+        private void ValidateFile(FileUploadInput file)
+        {
+            if (file is null)
+            {
+                throw new ArgumentNullException(nameof(file), "A file is required.");
+            }
+
+            if (file.Length <= 0)
+            {
+                throw new ArgumentException("File is empty.");
+            }
+
+            if (file.Length > _uploadSettings.MaxFileSizeBytes)
+            {
+                throw new ArgumentException($"File exceeds the maximum allowed size of {_uploadSettings.MaxFileSizeBytes} bytes.");
+            }
+
+            if (!_uploadSettings.AcceptedTypes.Contains(file.ContentType, StringComparer.OrdinalIgnoreCase))
+            {
+                throw new ArgumentException("Only PDF and CSV files are allowed.");
+            }
+
+            string extension = Path.GetExtension(file.FileName);
+
+            if (!_uploadSettings.AcceptedExtensions.Contains(extension, StringComparer.OrdinalIgnoreCase))
+            {
+                throw new ArgumentException("Only files with a .pdf and .csv extensions are allowed.");
+            }
+        }
+
+        private static async Task ValidatePdfSignatureAsync(Stream stream)
+        {
+            if (!stream.CanSeek)
+            {
+                throw new ArgumentException("Uploaded file stream must be seekable for validation.");
+            }
+
+            long originalPosition = stream.Position;
+            stream.Position = 0;
+
+            byte[] buffer = new byte[PdfSignature.Length];
+            int bytesRead = await stream.ReadAsync(buffer.AsMemory(0, buffer.Length));
+
+            stream.Position = originalPosition;
+
+            if (bytesRead != PdfSignature.Length || !buffer.SequenceEqual(PdfSignature))
+            {
+                throw new ArgumentException("Uploaded file is not a valid PDF or CSV.");
+            }
+        }
+
+        private void ValidateS3Settings()
+        {
+            if (string.IsNullOrWhiteSpace(_s3Settings.BucketName))
+            {
+                throw new InvalidOperationException("S3 bucket name is not configured.");
+            }
         }
     }
 }

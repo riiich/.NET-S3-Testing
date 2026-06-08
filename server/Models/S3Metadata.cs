@@ -1,14 +1,14 @@
 namespace server.Models;
 
-public class StoredS3File
+public class S3Metadata
 {
     public int Id { get; set; }
 
-    public int UserId { get; set; }
+    public string OwnerId { get; set; } = string.Empty;
 
     public string S3Key { get; set; } = string.Empty;
 
-    public StoredS3FileStatus Status { get; set; } = StoredS3FileStatus.Pending;
+    public S3MetadataStatus Status { get; set; } = S3MetadataStatus.Pending;
 
     public DateTime UploadedAt { get; set; } = DateTime.UtcNow;
 
@@ -19,6 +19,4 @@ public class StoredS3File
     public string MimeType { get; set; } = string.Empty;
 
     public long FileSize { get; set; }
-
-    public User? User { get; set; }
 }

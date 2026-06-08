@@ -1,6 +1,7 @@
 using Amazon;
 using Amazon.Runtime;
 using Amazon.S3;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using server.Data;
@@ -27,6 +28,11 @@ builder.Services.Configure<S3Settings>(
 builder.Services.Configure<UploadSettings>(
     builder.Configuration.GetSection("Upload")
 );
+builder.Services.Configure<FormOptions>(options =>
+{
+    UploadSettings uploadSettings = builder.Configuration.GetSection("Upload").Get<UploadSettings>() ?? new UploadSettings();
+    options.MultipartBodyLengthLimit = uploadSettings.MaxFileSizeBytes;
+});
 builder.Services.AddSingleton<IAmazonS3>(sp =>
 {
     var settings = sp
@@ -52,10 +58,8 @@ builder.Services.AddSingleton<IAmazonS3>(sp =>
     );
 });
 builder.Services.AddScoped<IS3FileUploadService, S3FileUploadService>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IStoredS3FileRepository, StoredS3FileRepository>();
-builder.Services.AddScoped<IStoredS3FileService, StoredS3FileService>();
+builder.Services.AddScoped<IS3MetadataRepository, S3MetadataRepository>();
+builder.Services.AddScoped<IS3MetadataService, S3MetadataService>();
 builder.Services.AddScoped<IFileUploadWorkflowService, FileUploadWorkflowService>();
 
 // configure CORS

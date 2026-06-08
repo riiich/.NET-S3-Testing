@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using server.DTOs;
 using server.Interfaces;
+using server.Mappers;
 using server.Models;
 
 namespace server.Controllers
@@ -9,15 +11,17 @@ namespace server.Controllers
     public class S3Controller : ControllerBase
     {
         private readonly IFileUploadWorkflowService _fileUploadWorkflowService;
+        private readonly LinkGenerator _linkGenerator;
 
-        public S3Controller(IFileUploadWorkflowService fileUploadWorkflowService)
+        public S3Controller(IFileUploadWorkflowService fileUploadWorkflowService, LinkGenerator linkGenerator)
         {
             _fileUploadWorkflowService = fileUploadWorkflowService;
+            _linkGenerator = linkGenerator;
         }
 
         [HttpPost]
         [Route("upload")]
-        public async Task<IActionResult> FileUpload(IFormFile uploadedFile, [FromForm] int userId)
+        public async Task<IActionResult> FileUpload(IFormFile uploadedFile, [FromForm] string ownerId)
         {
             try
             {
@@ -27,7 +31,7 @@ namespace server.Controllers
                 }
 
                 await using Stream fileContent = uploadedFile.OpenReadStream();
-                StoredS3File item = await _fileUploadWorkflowService.UploadAsync(userId, new FileUploadInput
+                S3Metadata item = await _fileUploadWorkflowService.UploadAsync(ownerId, new FileUploadInput
                 {
                     FileName = uploadedFile.FileName,
                     ContentType = uploadedFile.ContentType,
@@ -35,13 +39,21 @@ namespace server.Controllers
                     Content = fileContent
                 });
 
-                return Ok(new { msg="File uploaded successfully =)", res=item.S3Key, item });
+                string fileUrl = _linkGenerator.GetUriByAction(
+                    HttpContext,
+                    action: nameof(S3MetadataController.RetrieveFile),
+                    controller: "S3Metadata",
+                    values: new { ownerId = item.OwnerId, s3MetadataId = item.Id }) ?? string.Empty;
+
+                S3MetadataResponseDto response = S3MetadataResponseDtoMapper.MapS3MetadataToS3MetadataResponseDto(item, fileUrl);
+
+                return Ok(new { message = "File uploaded successfully.", item = response });
             }
-            catch(ArgumentException e)
+            catch (ArgumentException e)
             {
                 return BadRequest(e.Message);
             }
-            catch(InvalidOperationException e)
+            catch (InvalidOperationException e)
             {
                 return StatusCode(500, e.Message);
             }

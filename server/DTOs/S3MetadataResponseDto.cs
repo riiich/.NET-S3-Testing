@@ -1,14 +1,14 @@
-namespace server.Models;
+using server.Models;
 
-public class StoredS3FileResponseDto
+namespace server.DTOs;
+
+public class S3MetadataResponseDto
 {
     public int Id { get; set; }
 
-    public int UserId { get; set; }
+    public string OwnerId { get; set; } = string.Empty;
 
-    public string S3Key { get; set; } = string.Empty;
-
-    public StoredS3FileStatus Status { get; set; }
+    public S3MetadataStatus Status { get; set; }
 
     public DateTime UploadedAt { get; set; }
 
@@ -20,5 +20,5 @@ public class StoredS3FileResponseDto
 
     public long FileSize { get; set; }
 
-    public string PresignedUrl { get; set; } = string.Empty;
+    public string FileUrl { get; set; } = string.Empty;
 }
