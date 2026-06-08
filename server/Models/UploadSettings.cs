@@ -4,7 +4,7 @@ namespace server.Models
     {
         public string[] AcceptedTypes { get; set; } = ["application/pdf", "text/csv"];
 
-        public string[] AcceptedExtensions { get; set; } = [".pdf", ".CSV"];
+        public string[] AcceptedExtensions { get; set; } = [".pdf", ".csv"];
 
         public long MaxFileSizeBytes { get; set; } = 10 * 1024 * 1024;
     }

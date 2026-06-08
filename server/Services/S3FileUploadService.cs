@@ -3,6 +3,7 @@ using Amazon.S3.Model;
 using Microsoft.Extensions.Options;
 using server.Interfaces;
 using server.Models;
+using System.Text;
 
 namespace server.Services
 {
@@ -29,10 +30,15 @@ namespace server.Services
             return $"uploads/{Guid.NewGuid()}{extension}";
         }
 
+        public async Task ValidateFileAsync(FileUploadInput file)
+        {
+            string extension = ValidateFile(file);
+            await ValidateFileContentAsync(file.Content, extension);
+        }
+
         public async Task UploadFileAsync(FileUploadInput file, string s3Key)
         {
-            ValidateFile(file);
-            await ValidatePdfSignatureAsync(file.Content);
+            await ValidateFileAsync(file);
             ValidateS3Settings();
             
             try
@@ -82,7 +88,7 @@ namespace server.Services
             return _s3Client.GetPreSignedURL(request);
         }
 
-        private void ValidateFile(FileUploadInput file)
+        private string ValidateFile(FileUploadInput file)
         {
             if (file is null)
             {
@@ -104,12 +110,24 @@ namespace server.Services
                 throw new ArgumentException("Only PDF and CSV files are allowed.");
             }
 
-            string extension = Path.GetExtension(file.FileName);
+            string extension = Path.GetExtension(file.FileName).ToLowerInvariant();
 
             if (!_uploadSettings.AcceptedExtensions.Contains(extension, StringComparer.OrdinalIgnoreCase))
             {
-                throw new ArgumentException("Only files with a .pdf and .csv extensions are allowed.");
+                throw new ArgumentException("Only files with .pdf and .csv extensions are allowed.");
             }
+
+            return extension;
+        }
+
+        private static Task ValidateFileContentAsync(Stream stream, string extension)
+        {
+            return extension switch
+            {
+                ".pdf" => ValidatePdfSignatureAsync(stream),
+                ".csv" => ValidateCsvContentAsync(stream),
+                _ => throw new ArgumentException("Unsupported file extension.")
+            };
         }
 
         private static async Task ValidatePdfSignatureAsync(Stream stream)
@@ -129,7 +147,44 @@ namespace server.Services
 
             if (bytesRead != PdfSignature.Length || !buffer.SequenceEqual(PdfSignature))
             {
-                throw new ArgumentException("Uploaded file is not a valid PDF or CSV.");
+                throw new ArgumentException("Uploaded file is not a valid PDF.");
+            }
+        }
+
+        private static async Task ValidateCsvContentAsync(Stream stream)
+        {
+            if (!stream.CanSeek)
+            {
+                throw new ArgumentException("Uploaded file stream must be seekable for validation.");
+            }
+
+            long originalPosition = stream.Position;
+            stream.Position = 0;
+
+            try
+            {
+                using StreamReader reader = new(
+                    stream,
+                    new UTF8Encoding(encoderShouldEmitUTF8Identifier: false, throwOnInvalidBytes: true),
+                    detectEncodingFromByteOrderMarks: true,
+                    bufferSize: 4096,
+                    leaveOpen: true);
+
+                char[] buffer = new char[4096];
+                int charsRead = await reader.ReadBlockAsync(buffer.AsMemory(0, buffer.Length));
+
+                if (charsRead == 0 || buffer.AsSpan(0, charsRead).Contains('\0'))
+                {
+                    throw new ArgumentException("Uploaded file is not a valid CSV.");
+                }
+            }
+            catch (DecoderFallbackException e)
+            {
+                throw new ArgumentException("Uploaded file is not a valid CSV.", e);
+            }
+            finally
+            {
+                stream.Position = originalPosition;
             }
         }
 

@@ -22,7 +22,27 @@ public class FileUploadWorkflowServiceTests
     }
 
     [Fact]
-    public async Task UploadAsync_CreatesMetadataWithPendingStatusBeforeUploading()
+    public async Task UploadAsync_DoesNotCreateMetadataWhenValidationFails()
+    {
+        FakeS3MetadataRepository repository = new();
+        FakeS3FileUploadService storage = new()
+        {
+            ValidationException = new ArgumentException("Only PDF and CSV files are allowed.")
+        };
+        FileUploadWorkflowService service = new(new TestLogger<FileUploadWorkflowService>(), storage, repository);
+
+        ArgumentException exception = await Assert.ThrowsAsync<ArgumentException>(
+            () => service.UploadAsync("owner-1", CreatePdfInput()));
+
+        Assert.Contains("Only PDF and CSV files", exception.Message);
+        Assert.Null(repository.CreatedItem);
+        Assert.Empty(repository.UpdatedItems);
+        Assert.False(storage.CreateObjectKeyWasCalled);
+        Assert.False(storage.UploadWasCalled);
+    }
+
+    [Fact]
+    public async Task UploadAsync_CreatesMetadataAfterValidationBeforeUploading()
     {
         FakeS3MetadataRepository repository = new();
         FakeS3FileUploadService storage = new();
@@ -30,6 +50,7 @@ public class FileUploadWorkflowServiceTests
 
         S3Metadata result = await service.UploadAsync("owner-1", CreatePdfInput());
 
+        Assert.True(storage.ValidateWasCalled);
         Assert.Equal("owner-1", repository.CreatedItem?.OwnerId);
         Assert.Equal(S3MetadataStatus.Uploaded, result.Status);
         Assert.Equal("uploads/generated.pdf", result.S3Key);
@@ -37,7 +58,7 @@ public class FileUploadWorkflowServiceTests
     }
 
     [Fact]
-    public async Task UploadAsync_MarksMetadataFailedWhenS3UploadFails()
+    public async Task UploadAsync_MarksMetadataFailedWhenS3UploadFailsAfterValidation()
     {
         FakeS3MetadataRepository repository = new();
         FakeS3FileUploadService storage = new()
@@ -49,6 +70,8 @@ public class FileUploadWorkflowServiceTests
         await Assert.ThrowsAsync<InvalidOperationException>(
             () => service.UploadAsync("owner-1", CreatePdfInput()));
 
+        Assert.True(storage.ValidateWasCalled);
+        Assert.NotNull(repository.CreatedItem);
         Assert.Equal(S3MetadataStatus.Failed, repository.CreatedItem?.Status);
         Assert.Single(repository.UpdatedItems);
     }
@@ -66,15 +89,39 @@ public class FileUploadWorkflowServiceTests
 
     private sealed class FakeS3FileUploadService : IS3FileUploadService
     {
+        public Exception? ValidationException { get; set; }
+
         public Exception? UploadException { get; set; }
+
+        public bool ValidateWasCalled { get; private set; }
+
+        public bool CreateObjectKeyWasCalled { get; private set; }
+
+        public bool UploadWasCalled { get; private set; }
 
         public string CreateObjectKey(string fileName)
         {
+            CreateObjectKeyWasCalled = true;
+
             return "uploads/generated.pdf";
+        }
+
+        public Task ValidateFileAsync(FileUploadInput file)
+        {
+            ValidateWasCalled = true;
+
+            if (ValidationException is not null)
+            {
+                throw ValidationException;
+            }
+
+            return Task.CompletedTask;
         }
 
         public Task UploadFileAsync(FileUploadInput file, string s3Key)
         {
+            UploadWasCalled = true;
+
             if (UploadException is not null)
             {
                 throw UploadException;

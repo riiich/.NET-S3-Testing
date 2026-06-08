@@ -7,7 +7,7 @@ namespace server.Tests;
 public class S3FileUploadServiceTests
 {
     [Fact]
-    public async Task UploadFileAsync_RejectsNonPdfContentType()
+    public async Task UploadFileAsync_RejectsUnsupportedContentType()
     {
         S3FileUploadService service = CreateService();
         FileUploadInput input = CreateUploadInput("report.pdf", "text/plain", "%PDF-1.7");
@@ -19,7 +19,7 @@ public class S3FileUploadServiceTests
     }
 
     [Fact]
-    public async Task UploadFileAsync_RejectsNonPdfExtension()
+    public async Task UploadFileAsync_RejectsUnsupportedExtension()
     {
         S3FileUploadService service = CreateService();
         FileUploadInput input = CreateUploadInput("report.txt", "application/pdf", "%PDF-1.7");
@@ -27,7 +27,7 @@ public class S3FileUploadServiceTests
         ArgumentException exception = await Assert.ThrowsAsync<ArgumentException>(
             () => service.UploadFileAsync(input, "uploads/test.pdf"));
 
-        Assert.Contains(".pdf extension", exception.Message);
+        Assert.Contains(".pdf and .csv", exception.Message);
     }
 
     [Fact]
@@ -40,6 +40,18 @@ public class S3FileUploadServiceTests
             () => service.UploadFileAsync(input, "uploads/test.pdf"));
 
         Assert.Contains("not a valid PDF", exception.Message);
+    }
+
+    [Fact]
+    public async Task UploadFileAsync_RejectsBinaryCsvContent()
+    {
+        S3FileUploadService service = CreateService();
+        FileUploadInput input = CreateUploadInput("report.csv", "text/csv", "name,score\nrich\0,100");
+
+        ArgumentException exception = await Assert.ThrowsAsync<ArgumentException>(
+            () => service.UploadFileAsync(input, "uploads/test.csv"));
+
+        Assert.Contains("not a valid CSV", exception.Message);
     }
 
     [Fact]
@@ -88,6 +100,18 @@ public class S3FileUploadServiceTests
     }
 
     [Fact]
+    public async Task UploadFileAsync_AcceptsValidCsvBeforeCheckingS3Configuration()
+    {
+        S3FileUploadService service = CreateService();
+        FileUploadInput input = CreateUploadInput("report.csv", "text/csv", "name,score\nrich,100");
+
+        InvalidOperationException exception = await Assert.ThrowsAsync<InvalidOperationException>(
+            () => service.UploadFileAsync(input, "uploads/test.csv"));
+
+        Assert.Contains("bucket name", exception.Message);
+    }
+
+    [Fact]
     public void CreateObjectKey_GeneratesServerOwnedKeyWithoutOriginalFileName()
     {
         S3FileUploadService service = CreateService();
@@ -98,6 +122,18 @@ public class S3FileUploadServiceTests
         Assert.EndsWith(".pdf", key);
         Assert.DoesNotContain("report", key, StringComparison.OrdinalIgnoreCase);
         Assert.DoesNotContain("..", key);
+    }
+
+    [Fact]
+    public void CreateObjectKey_PreservesCsvExtension()
+    {
+        S3FileUploadService service = CreateService();
+
+        string key = service.CreateObjectKey("report.csv");
+
+        Assert.StartsWith("uploads/", key);
+        Assert.EndsWith(".csv", key);
+        Assert.DoesNotContain("report", key, StringComparison.OrdinalIgnoreCase);
     }
 
     private static S3FileUploadService CreateService(UploadSettings? uploadSettings = null)

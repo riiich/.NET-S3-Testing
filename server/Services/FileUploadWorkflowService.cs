@@ -26,6 +26,8 @@ public class FileUploadWorkflowService : IFileUploadWorkflowService
             throw new ArgumentException("An owner id is required before uploading files.");
         }
 
+        await _storageService.ValidateFileAsync(file);
+
         string s3Key = _storageService.CreateObjectKey(file.FileName);
 
         S3Metadata item = new()

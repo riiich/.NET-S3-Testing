@@ -131,6 +131,11 @@ public class S3MetadataControllerTests
             return "uploads/file.pdf";
         }
 
+        public Task ValidateFileAsync(FileUploadInput file)
+        {
+            return Task.CompletedTask;
+        }
+
         public Task UploadFileAsync(FileUploadInput file, string s3Key)
         {
             return Task.CompletedTask;
